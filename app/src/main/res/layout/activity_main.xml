@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+        <Button
+            android:id="@+id/btn_motime1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimePickerDialog"
+            android:textAllCaps="false"
+            android:onClick="moTimePickerDialog" />
+        <Button
+            android:id="@+id/btn_motime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DatePickerDialog"
+            android:textAllCaps="false"
+            android:onClick="moShowDatePicker" />
+        <Button
+            android:id="@+id/btn_motime3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressDialog"
+            android:textAllCaps="false"
+            android:onClick="moProgressDialog" />
+        <Button
+            android:id="@+id/btn_motime4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlertDialog"
+            android:textAllCaps="false"
+            android:onClick="moAlertDialog" />
+        <Button
+            android:id="@+id/btn_motime5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlertListDialog"
+            android:textAllCaps="false"
+            android:onClick="moAlertLisDialog"/>
+        <Button
+            android:id="@+id/btn_motime6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SingleChoiceDialog"
+            android:textAllCaps="false"
+            android:onClick="moSingleChoiceDialog" />
+        <Button
+            android:id="@+id/btn_motime7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiChoiceDialog"
+            android:textAllCaps="false"
+            android:onClick="moMultiChoiceDialog" />
+        <Button
+            android:id="@+id/btn_motime8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomDialog"
+            android:textAllCaps="false"
+            android:onClick="moCustomDialog" />
+        <Button
+            android:id="@+id/btn_motime9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CustomToast"
+            android:textAllCaps="false"
+            android:onClick="moCustomToast" />
+    </LinearLayout>
+
+</ScrollView>
